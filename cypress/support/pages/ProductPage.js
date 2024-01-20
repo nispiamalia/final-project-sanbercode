@@ -6,6 +6,10 @@ class ProductPage {
         cy.get(locator.datatestid.code_product_field).clear().type(code)
     }
 
+    async fillEmptyProductCode(code) {
+        cy.get(locator.datatestid.code_product_field).clear();
+    }
+
     async fillProductName(name) {
         cy.get(locator.datatestid.name_product_field).type(name)
     }
@@ -18,12 +22,23 @@ class ProductPage {
         cy.get(locator.datatestid.purchase_price).type(purchaseprice)
     }
 
+    async fillEmptyPurchasePrice() {
+        cy.get(locator.datatestid.purchase_price).clear();
+    }
     async fillSellPrice(sellprice) {
         cy.get(locator.datatestid.sell_price).type(sellprice)
     }
 
+    async fillEmptySellPrice() {
+        cy.get(locator.datatestid.sell_price).clear();
+    }
+
     async fillStock(stock) {
         cy.get(locator.datatestid.stock).clear().type(stock)
+    }
+
+    async fillEmptyStock(stock) {
+        cy.get(locator.datatestid.stock).clear()
     }
 
     async clickProductButton() {
@@ -54,10 +69,33 @@ class ProductPage {
         cy.contains('item ditambahkan').should('be.visible');
     }
 
-    async verifyEmptyField() {
+    async verifyEmptyName() {
         cy.contains('"name" is not allowed to be empty').should('be.visible');
     }
 
+    async verifyEmptyCode() {
+        cy.contains('"code" is not allowed to be empty').should('be.visible');
+    }
+
+    async verifyEmptyPurchasePrice() {
+        cy.contains('"cost" must be a number').should('be.visible');
+    }
+
+    async verifyHigherCostPrice() {
+        cy.contains('"price" must be greater than ref:cost').should('be.visible');
+    }
+
+    async verifyZeroPurchasePrice() {
+        cy.contains('"cost" must be greater than 0').should('be.visible');
+    }
+
+    async verifyEmptySellPrice() {
+        cy.contains('"price" must be a number').should('be.visible');
+    }
+
+    async verifyEmptyStock() {
+        cy.contains('"stock" must be a number').should('be.visible');
+    }
 }
 
 module.exports = new ProductPage();
