@@ -14,13 +14,6 @@ class LoginPage {
         cy.get(locator.datatestid.password_field).type(password)
     }
 
-    async emptyEmail() {
-        cy.get(locator.datatestid.email_field).clear();
-    }
-
-    async emptyPassword() {
-        cy.get(locator.datatestid.password_field).clear();
-    }
     async clickLoginButton() {
         cy.get(locator.datatestid.btn_login).click();
     }

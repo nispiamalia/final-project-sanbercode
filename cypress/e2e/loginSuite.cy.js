@@ -35,8 +35,6 @@ describe('Login - Negative Case', () => {
 
   // Login with empty email and password fields
   it('Login with empty fields', () => {
-    LoginPage.emptyEmail();
-    LoginPage.emptyPassword();
     LoginPage.clickLoginButton();
     LoginPage.verifyEmptyMailPass();
   })

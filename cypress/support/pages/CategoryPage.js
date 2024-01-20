@@ -1,6 +1,6 @@
-const locator = require('../locators/KategoriLocator');
+const locator = require('../locators/CategoryLocator');
 
-class LoginPage {
+class CategoryPage {
 
     async fillName(name) {
         cy.get(locator.datatestid.name_field).type(name)
@@ -10,14 +10,6 @@ class LoginPage {
         cy.get(locator.datatestid.description_field).type(description)
     }
     
-    async fillEmptyName(emptyname) {
-        cy.get(locator.datatestid.name_field).clear()
-    }
-
-    async fillEmptyDescription(description) {
-        cy.get(locator.datatestid.description_field).clear()
-    }
-
     async clickCategoryButton() {
         cy.get(locator.datatestid.btn_category).click();
     }
@@ -43,4 +35,4 @@ class LoginPage {
     }
 }
 
-module.exports = new LoginPage();
+module.exports = new CategoryPage();
