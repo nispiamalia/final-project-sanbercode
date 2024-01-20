@@ -1,7 +1,9 @@
 module.exports = {
-    valid_email: 'nispiadila@gmail.com',
-    valid_password: 'asdw1234',
-    invalid_email: 'nispiadilaa@gmail.com',
-    invalid_password: 'Asdw1234',
-    invalid_email_format: 'nispiadila@gmail'
+    user1_name: 'Nispi',
+    user2_name: 'Amalia',
+    user1_email: 'nispiamaliaa@mail.com',
+    user2_email: 'nispiamalia10@mail.com',
+    user1_password: 'qwerty123',
+    user2_password: 'Qwerty123',
+    invalid_email_format: 'nispiamalia@mail'
 }

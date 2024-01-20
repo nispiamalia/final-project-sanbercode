@@ -1,14 +1,14 @@
 const LoginPage = require('../support/pages/LoginPage');
 const HomePage = require('../support/pages/HomePage');
-const UserData = require('../support/data/UserData');
+const LoginData = require('../support/data/LoginData');
 const ProductPage = require('../support/pages/ProductPage');
 const ProductData = require('../support/data/ProductData');
 
 describe('Product Page - Positive Case', () => {
     beforeEach(() => {
         LoginPage.visit();
-        LoginPage.fillEmail(UserData.valid_email);
-        LoginPage.fillPassword(UserData.valid_password);
+        LoginPage.fillEmail(LoginData.valid_email);
+        LoginPage.fillPassword(LoginData.valid_password);
         LoginPage.clickLoginButton();
         HomePage.verifyHomePage();
     });
