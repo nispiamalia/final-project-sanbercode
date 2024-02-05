@@ -44,4 +44,5 @@ This is the result when I run the code:
 
 <img width="709" alt="image" src="https://github.com/nispiamalia/final-project-sanbercode/assets/110650876/cb92cd42-6611-4ec5-bec4-a2aea71ca76d">
 
+
 Feel free to explore the code, run the tests, and adapt the automation scripts to fit your specific testing needs on [Kasir Demo](http://kasirdemo.belajarqa.com/). If you encounter any issues or have suggestions for improvement, please don't hesitate to open an issue or submit a pull request. Happy testing!
