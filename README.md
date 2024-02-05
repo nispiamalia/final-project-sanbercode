@@ -8,7 +8,7 @@ Hello everyone! This repository contains the final project from the Quality Assu
 - Utilizes Cypress, a powerful end-to-end testing framework.
 
 **Functionalities Covered:**
-The following functionalities were covered in this project (with various scenarios):
+The following functionalities were covered in this project (with various scenarios)
 1. User login
 2. Add categories
 3. Add products
