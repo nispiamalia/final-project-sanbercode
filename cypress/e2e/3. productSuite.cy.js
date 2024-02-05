@@ -31,7 +31,7 @@ describe('Product Page - Positive Case', () => {
         ProductPage.clickProductButton();
         ProductPage.clickAddProductButton();
         ProductPage.fillProductCode(ProductData.smartphone_code);
-        ProductPage.fillProductName(ProductData.smartwatch_name);
+        ProductPage.fillProductName(ProductData.smartphone_name);
         ProductPage.fillProductDescription('128gb, 256gb');
         ProductPage.fillPurchasePrice('15000000');
         ProductPage.fillSellPrice('17000000');

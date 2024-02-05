@@ -5,6 +5,7 @@ module.exports = {
         search_input: '.css-1jmizbp',
         btn_search: '.css-7nrq',
         note_field: '[placeholder="catatan"]',
-        btn_save_purchase: '.css-pu8osu'
+        btn_save_purchase: '.css-pu8osu',
+        btn_product : '.chakra-button.css-72nwfb'
     }
 }

@@ -15,18 +15,18 @@ class ProductPage {
     }
 
     async fillProductDescription(description) {
-        cy.get(locator.datatestid.description_product_field).type(description)
+        cy.get(locator.datatestid.description_product_field).type(description);
     }
 
     async fillPurchasePrice(purchaseprice) {
-        cy.get(locator.datatestid.purchase_price).type(purchaseprice)
+        cy.get(locator.datatestid.purchase_price).type(purchaseprice);
     }
 
     async fillEmptyPurchasePrice() {
         cy.get(locator.datatestid.purchase_price).clear();
     }
     async fillSellPrice(sellprice) {
-        cy.get(locator.datatestid.sell_price).type(sellprice)
+        cy.get(locator.datatestid.sell_price).type(sellprice);
     }
 
     async fillEmptySellPrice() {
@@ -34,11 +34,11 @@ class ProductPage {
     }
 
     async fillStock(stock) {
-        cy.get(locator.datatestid.stock).clear().type(stock)
+        cy.get(locator.datatestid.stock).clear().type(stock);
     }
 
     async fillEmptyStock(stock) {
-        cy.get(locator.datatestid.stock).clear()
+        cy.get(locator.datatestid.stock).clear();
     }
 
     async clickProductButton() {
