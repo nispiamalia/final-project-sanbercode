@@ -1,6 +1,6 @@
 # Automation Test using Cypress - Final Project
 
-Hello everyone! This repository showcases the final project I completed during the Quality Assurance bootcamp at Sanbercode. In this project, I've dedicated my efforts to creating automation tests for the [Kasir Demo](http://kasirdemo.belajarqa.com/) website using the Page Object Model with Cypress.
+Hello everyone! This repository contains the final project I completed during the Quality Assurance bootcamp at Sanbercode. In this project, I've dedicated my efforts to creating automation tests for the [Kasir Demo](http://kasirdemo.belajarqa.com/) website using the Page Object Model with Cypress.
 
 **Key Features:**
 - Implementation of the Page Object Model (POM) for better test organization and maintenance.
