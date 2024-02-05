@@ -17,9 +17,14 @@ The following functionalities were covered in this project (with various scenari
 6. Add purchasing products
 
 **Testing Activities:**
-1. Designed and Documented Test Cases: Created test cases for different functionalities and scenarios.
-2. Executed Test Cases: Executed test cases to verify the functionalities.
-3. Identified and Report the Issues: Discovered issues and reported them.
+1. Designing and Documenting Test Cases:
+Crafting detailed test cases, encompassing a wide array of functionalities and scenarios. This step ensures a thorough examination of the system's capabilities.
+
+2. Executing Test Cases:
+Engaging in the execution of test cases, the focus is on verifying the seamless functionality of the application. By systematically running these cases, I validate the expected outcomes across various use cases.
+
+3. Identifying and Reporting Issues:
+Discover and promptly report any identified issues. This proactive approach ensures a streamlined resolution process, contributing to the overall enhancement of the application's performance and reliability.
 
 **How to Use:**
 1. Clone the repository to your local machine.
